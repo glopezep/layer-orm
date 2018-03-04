@@ -1,0 +1,18 @@
+{
+  "name": "layer-orm",
+  "version": "0.0.1",
+  "description": "Wrapper to easily switch between orms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/glopezep/layer-orm"
+  },
+  "keywords": [
+    "orm"
+  ],
+  "author": "Guillermo Lopez",
+  "license": "MIT"
+}
