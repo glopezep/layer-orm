@@ -45,14 +45,18 @@ db.services.ModelName.create({
 ```
 
 ## API
+>
 
 ### layerOrm
+>
 
 #### layerOrm#setup(settings: Object) -> db: Object
 
 ### db
+>
 
 #### db#services
+>
 
 ##### db#services#ModelName#create
 ##### db#services#ModelName#findOne
@@ -60,6 +64,12 @@ db.services.ModelName.create({
 ##### db#services#ModelName#query
 ##### db#services#ModelName#update
 ##### db#services#ModelName#delete
+
+#### db#models
+>
+
+##### db#models#ModelName
+
 
 ## License
 
