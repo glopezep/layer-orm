@@ -12,11 +12,13 @@ npm install --save layer-orm
 
 ```js
 const layerOrm = require('layer-orm')
+const layerOrmSequelize = require('layer-orm-sequelize-adapter')
 
 const settings = {
   modelsDir: './path/to/models'
   adapter: {
     name: 'sequelize', // currently sequelize is supported
+    driver: layerOrmSequelize
     config: { // orm configuration
       username: 'my database username',
       password: 'my database password',
